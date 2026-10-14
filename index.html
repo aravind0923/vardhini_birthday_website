@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#32113f" />
+  <meta name="description" content="A little birthday surprise filled with friendship, photos, and love for Vardhini." />
+  <title>Happy Birthday, Vardhini! 💜</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true" id="ambient"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Birthday home"><span class="brand-flower">✿</span> a little celebration</a>
+    <button class="music-toggle" id="musicToggle" aria-pressed="false"><span id="musicIcon">♫</span><span id="musicLabel">Play music</span></button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-sparkle sparkle-one">✦</div><div class="hero-sparkle sparkle-two">✧</div>
+      <div class="eyebrow"><span></span> TODAY IS ALL ABOUT YOU <span></span></div>
+      <p class="script-intro">For my favourite human</p>
+      <h1>Happy Birthday,<br><em>Vardhini!</em></h1>
+      <p class="hero-copy">A whole lot of love, a little sparkle, and all the reasons you make life brighter. 💜</p>
+      <a class="primary-button" href="#memories">Let’s celebrate <span>↓</span></a>
+      <div class="hero-flower flower-left">✿</div><div class="hero-flower flower-right">❀</div>
+      <div class="scroll-note">SCROLL FOR YOUR SURPRISE</div>
+    </section>
+
+    <section class="section message-section" id="message">
+      <div class="section-kicker">A NOTE FROM ME TO YOU</div>
+      <div class="letter-card">
+        <div class="letter-stamp">♡</div>
+        <p class="letter-hi">Dear Vardhini,</p>
+        <h2>Happy birthday to my<br><span>absolute favourite person!</span></h2>
+        <p class="letter-body">Thanks for always being my biggest cheerleader 💕🤗. Thank you for the laughs, the little moments, the encouragement, and for being the kind of friend who makes ordinary days feel special.</p>
+        <p class="letter-body">I hope this new year brings you beautiful surprises, peaceful days, big wins, endless laughter, and every little thing your heart has been wishing for. Never forget how loved, appreciated, and wonderfully you you are.</p>
+        <p class="letter-signoff">Always cheering for you, too! <span>♡</span></p>
+      </div>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-kicker">LITTLE MOMENTS, BIG MEMORIES</div>
+      <h2 class="section-title">Your smile deserves<br><em>a whole gallery</em></h2>
+      <p class="section-subtitle">Six snapshots, countless reasons to smile.</p>
+      <div class="gallery" id="gallery">
+        <button class="photo photo-tall" data-photo="0" aria-label="Open photo 1"><img src="assets/vardhini-photo-1.jpeg" alt="Vardhini smiling outdoors" loading="lazy"><span class="photo-caption">A little sunshine ✨</span></button>
+        <button class="photo photo-wide" data-photo="1" aria-label="Open photo 2"><img src="assets/vardhini-photo-2.jpeg" alt="A happy selfie of Vardhini" loading="lazy"><span class="photo-caption">That lovely smile 💗</span></button>
+        <button class="photo photo-tall" data-photo="2" aria-label="Open photo 3"><img src="assets/vardhini-photo-3.jpeg" alt="Vardhini enjoying a day out" loading="lazy"><span class="photo-caption">Main character energy 🌟</span></button>
+        <button class="photo photo-feature" data-photo="3" aria-label="Open birthday collage"><img src="assets/birthday-collage.jpeg" alt="Birthday collage made with Vardhini's photos" loading="lazy"><span class="photo-caption">Made with love 💜</span></button>
+        <button class="photo photo-wide" data-photo="4" aria-label="Open photo 5"><img src="assets/vardhini-photo-5.jpeg" alt="Vardhini laughing at a celebration" loading="lazy"><span class="photo-caption">Keep shining, birthday girl ✨</span></button>
+        <button class="photo photo-tall" data-photo="5" aria-label="Open photo 6"><img src="assets/vardhini-photo-6.jpeg" alt="A fun memory with a friend" loading="lazy"><span class="photo-caption">A memory to keep 🤍</span></button>
+      </div>
+      <p class="gallery-hint">Tap any photo to see it a little bigger ↗</p>
+    </section>
+
+    <section class="section cake-section" id="cake">
+      <div class="section-kicker">MAKE A WISH</div>
+      <h2 class="section-title">One more year of<br><em>being wonderfully you</em></h2>
+      <p class="section-subtitle">Close your eyes, make a wish, and tap the cake. 🎂</p>
+      <div class="cake-wrap" id="cakeWrap">
+        <div class="cake-glow"></div>
+        <div class="candles">
+          <button class="candle" aria-label="Blow out candle 1"><i></i></button>
+          <button class="candle" aria-label="Blow out candle 2"><i></i></button>
+          <button class="candle" aria-label="Blow out candle 3"><i></i></button>
+        </div>
+        <button class="cake" id="cakeButton" aria-label="Blow out the birthday candles">
+          <span class="cake-top"></span><span class="icing-drip"></span><span class="cake-layer"></span><span class="cake-bottom"></span><span class="cake-plate"></span>
+        </button>
+      </div>
+      <p class="wish-hint" id="wishHint">Tap the cake to blow out the candles ✨</p>
+      <div class="wish-message" id="wishMessage" hidden>🌟 Wish made! May your year be as lovely as your heart. 🌟</div>
+    </section>
+
+    <section class="section final-section">
+      <div class="final-heart">♡</div>
+      <p class="script-intro">A tiny reminder</p>
+      <h2>Life is better<br>with <em>you in it.</em></h2>
+      <p class="final-copy">Here’s to more silly laughs, honest talks, unforgettable memories, and a friendship that keeps getting sweeter.</p>
+      <button class="primary-button" id="surpriseButton">Open one last surprise <span>✧</span></button>
+      <div class="surprise-note" id="surpriseNote" hidden>
+        <div class="surprise-stars">✦ ✧ ✦</div>
+        <h3>To my forever cheerleader 💌</h3>
+        <p>No matter where life takes us, I’ll always be grateful that I get to call you my friend. Keep being your bright, beautiful, unstoppable self. The world is lucky to have you — and so am I.</p>
+        <strong>Happy Birthday, Vardhini! 💜</strong>
+      </div>
+      <div class="end-confetti" aria-hidden="true">✧　♡　✦　✿　♡　✧</div>
+    </section>
+  </main>
+
+  <footer>Made with <span>♥</span> just for Vardhini · Birthday edition</footer>
+
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Photo viewer" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <button class="lightbox-nav prev" id="prevPhoto" aria-label="Previous photo">‹</button>
+    <img id="lightboxImage" src="" alt="Expanded memory">
+    <button class="lightbox-nav next" id="nextPhoto" aria-label="Next photo">›</button>
+    <p id="lightboxCaption"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
